@@ -15,22 +15,22 @@ public class Account {
     /**
      * 
      */
-    private double solde;
+    double solde;
 
     /**
      * 
      */
-    private String id;
+     String id;
 
     /**
      * 
      */
-    private Person proprietaire;
+    Person proprietaire;
 
     /**
      * 
      */
-    private double taux;
+    double taux;
 
 	public double getSolde() {
 		return solde;

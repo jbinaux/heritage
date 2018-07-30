@@ -9,6 +9,7 @@ public class MainAccount extends Account {
      * Default constructor
      */
     public MainAccount() {
+    	taux = 0;
     }
 
     /**
@@ -17,7 +18,8 @@ public class MainAccount extends Account {
      * @return
      */
     public void virement(int somme, MainAccount destinataire) {
-        // TODO implement here
+        this.solde -= somme;
+        destinataire.setSolde(destinataire.getSolde() + somme);
     }
 
     /**
@@ -25,7 +27,7 @@ public class MainAccount extends Account {
      * @return
      */
     public void retirerArgent(int somme) {
-        // TODO implement here
+    	solde -= somme;
     }
 
     /**
@@ -33,7 +35,8 @@ public class MainAccount extends Account {
      * @return
      */
     public void AjouterAuPEL(int somme) {
-        // TODO implement here
+    	solde -= somme;
+    	proprietaire.getPel().setSolde(proprietaire.getPel().getSolde() + somme);
     }
 
 }

@@ -9,6 +9,7 @@ public class PEL extends Account {
      * Default constructor
      */
     public PEL() {
+    	taux = 3;
     }
 
     /**
