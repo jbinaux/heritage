@@ -15,17 +15,17 @@ public class Account {
     /**
      * 
      */
-    double solde;
+    private  double solde;
 
     /**
      * 
      */
-     String id;
+     private String id;
 
     /**
      * 
      */
-    Person proprietaire;
+    private Person proprietaire;
 
     /**
      * 

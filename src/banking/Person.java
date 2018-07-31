@@ -12,35 +12,35 @@ public class Person {
      * Default constructor
      */
     public Person(int solde) {
-    	courant.setProprietaire(this);
-    	pel.setProprietaire(this);
-    	courant.setSolde(solde);
+    	getCourant().setProprietaire(this);
+    	getPel().setProprietaire(this);
+    	getCourant().setSolde(solde);
     }
 
     /**
      * 
      */
-     String name;
+    private String name;
 
     /**
      * 
      */
-    String address;
+    private String address;
 
     /**
      * 
      */
-    Date dateNaissance;
+    private Date dateNaissance;
 
     /**
      * 
      */
-    MainAccount courant = new MainAccount();
+    private MainAccount courant = new MainAccount();
 
     /**
      * 
      */
-    PEL pel = new PEL();
+    private PEL pel = new PEL();
 
 	public String getName() {
 		return name;
