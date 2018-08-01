@@ -27,7 +27,26 @@ public class Staff extends Person {
      * @return
      */
     public void receivesSalaryIncrease(int increase) {
-        // TODO implement here
+    	if (yearsOfExperience % 5 == 0)
+    	{
+    		salary += increase;
+    	}
     }
+
+	public int getYearsOfExperience() {
+		return yearsOfExperience;
+	}
+
+	public void setYearsOfExperience(int yearsOfExperience) {
+		this.yearsOfExperience = yearsOfExperience;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
 
 }

@@ -25,4 +25,12 @@ public class Teacher extends Staff {
         // TODO implement here
     }
 
+	public String getField() {
+		return field;
+	}
+
+	public void setField(String field) {
+		this.field = field;
+	}
+
 }
