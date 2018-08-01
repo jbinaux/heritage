@@ -1,4 +1,4 @@
-package School;
+package school;
 
 
 /**
@@ -30,7 +30,7 @@ public class Student extends Person {
     /**
      * 
      */
-    public Courses course;
+    public Courses course = new Courses();
 
     /**
      * If the student pass the final exeam, he gains one yeaf of study.

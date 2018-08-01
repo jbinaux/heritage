@@ -1,4 +1,4 @@
-package School;
+package school;
 
 
 /**
@@ -20,7 +20,7 @@ public class Courses {
     /**
      * 
      */
-    public int[] grades;
+    public int[] grades = new int[0];
 
 	public String getName() {
 		return name;

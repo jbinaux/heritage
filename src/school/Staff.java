@@ -1,4 +1,4 @@
-package School;
+package school;
 
 
 /**
@@ -27,7 +27,7 @@ public class Staff extends Person {
      * @return
      */
     public void receivesSalaryIncrease(int increase) {
-    	if (yearsOfExperience % 5 == 0)
+    	if (yearsOfExperience % 2 == 0)
     	{
     		salary += increase;
     	}
