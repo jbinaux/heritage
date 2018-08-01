@@ -20,9 +20,8 @@ public class Admin extends Staff {
      * The admin attributes a class number to the student.
      * @return
      */
-    public int giveAClassNumberToStudent() {
+    public void giveAClassNumberToStudent() {
         // TODO implement here
-        return null;
     }
 
 	public String getDepartment() {
